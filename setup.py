@@ -6,7 +6,7 @@ README = open(os.path.join(here, 'README.md')).read()
 
 setup(
     name='easy_excel',
-    version='0.0.5',
+    version='0.0.6',
     description='Python create excel',
     long_description=README,
     author='nick1994209',

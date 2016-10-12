@@ -36,8 +36,8 @@ class Sheet(object):
     def write_collumns(self):
         for index, column in enumerate(self.columns):
             self.sheet.write(0, index, column.name)
-            # if column.width:
-            #     self.sheet.col(index).width = column.width
+            if column.width:
+                self.sheet.col(index).width = column.width
 
     def write_objects_to_sheet(self):
 
