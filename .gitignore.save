@@ -1,0 +1,8 @@
+.idea/
+__pycache__/
+*pyc
+dist/
+django_auth2.egg-info/ 
+.DS_Store 
+*.log
+build
